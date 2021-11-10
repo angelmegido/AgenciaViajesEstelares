@@ -1,4 +1,4 @@
-function confirmacion() {
+window.confirmacion = function confirmacion() {
     var pregunta = confirm("¿Deseas visitar la Tierra?")
     if (pregunta){
       alert("Te envío allí a la velocidad de la luz")
@@ -9,7 +9,7 @@ function confirmacion() {
     }
   }
 
-  function confirmacionMarte() {
+  window.confirmacionMarte = function confirmacionMarte() {
     var pregunta = confirm("¿Deseas visitar Marte?")
     if (pregunta){
       alert("Te envío a la velocidad de la luz")
@@ -19,7 +19,7 @@ function confirmacion() {
       alert("Quizás en otro momento...\n Gracias de todas formas")
     }
   }
-  function confirmacionMercurio() {
+  window.confirmacionMercurio = function confirmacionMercurio() {
     var pregunta = confirm("¿Deseas visitar Mercurio?")
     if (pregunta){
       alert("Te envío a la velocidad de la luz")
@@ -29,7 +29,7 @@ function confirmacion() {
       alert("Quizás en otro momento...\n Gracias de todas formas")
     }
   }
-  function confirmacionVenus() {
+  window.confirmacionVenus = function confirmacionVenus() {
     var pregunta = confirm("¿Deseas visitar Venus?")
     if (pregunta){
       alert("Te envío allí a la velocidad de la luz")
@@ -39,7 +39,7 @@ function confirmacion() {
       alert("Quizás en otro momento...\n Gracias de todas formas")
     }
   }
-  function confirmacionJupiter() {
+  window.confirmacionJupiter = function confirmacionJupiter() {
     var pregunta = confirm("¿Deseas visitar Jupiter?")
     if (pregunta){
       alert("Te envío allí a la velocidad de la luz")
@@ -49,7 +49,7 @@ function confirmacion() {
       alert("Quizás en otro momento...\n Gracias de todas formas")
     }
   }
-  function confirmacionSaturno() {
+  window.confirmacionSaturno = function confirmacionSaturno() {
     var pregunta = confirm("¿Deseas visitar Saturno?")
     if (pregunta){
       alert("Te envío allí a la velocidad de la luz")
@@ -60,7 +60,7 @@ function confirmacion() {
     }
   }
 
-  function confirmacionUrano() {
+  window.confirmacionUrano = function confirmacionUrano() {
     var pregunta = confirm("¿Deseas visitar Urano?")
     if (pregunta){
       alert("Te envío allí a la velocidad de la luz")
@@ -71,7 +71,7 @@ function confirmacion() {
     }
   }
   
-  function confirmacionNeptuno() {
+  window.confirmacionNeptuno = function confirmacionNeptuno() {
     var pregunta = confirm("¿Deseas visitar Neptuno?")
     if (pregunta){
       alert("Te envío allí a la velocidad de la luz")
@@ -82,7 +82,7 @@ function confirmacion() {
     }
   }
 
-  function confirmacionSol() {
+  window.confirmacionSol = function confirmacionSol() {
     var pregunta = confirm("¿Deseas visitar el Sol?")
     if (pregunta){
       alert("Te envío allí a la velocidad de la luz")
