@@ -1,0 +1,110 @@
+body {
+    font-family: "Helvetica";
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    background-color:black;
+    padding: 25px;
+    width:85%;
+    }
+    article {
+    font-family: "Helvetica";
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    background-color:black;
+    padding: 10px;
+    width:52%;
+    }
+  .portada{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  nav a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white ;
+    }
+    nav a:hover
+      {
+    color: #ff1616;
+    text-decoration: none;
+    }
+    .menu{
+      font-family:'Courier New', Courier, monospace;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr ;
+      color: white;
+      font-size: x-large;
+      list-style-type: none;
+          }
+     .menuNavegacion
+     {
+      color: #16fefe;
+          }
+  
+     .Otros{
+      font-family:'Courier New', Courier, monospace;
+      padding-top: 100px;
+      margin: auto;
+      color: white;
+      font-size: x-large;
+      list-style-type: none;
+       display: grid;
+       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+       gap: 16px;
+       }
+       @media screen and (min-width: 650px) {
+       .menu{
+        font-family:'Courier New', Courier, monospace;
+        padding-top: 100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        font-size: x-large;
+        list-style-type: none;
+      }
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      width: 80%;
+    }
