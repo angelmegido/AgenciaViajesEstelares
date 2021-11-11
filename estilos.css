@@ -74,11 +74,10 @@ body {
       font-size: x-large;
       list-style-type: none;
           }
-     .menuNavegacion
+      .menuNavegacion
      {
       color: #ff1616;
           }
-  
      .Otros{
       font-family:'Courier New', Courier, monospace;
       padding-top: 100px;
@@ -108,3 +107,6 @@ body {
       max-width: 100%;
       width: 80%;
     }
+    a{
+      color: #fff;
+   }
